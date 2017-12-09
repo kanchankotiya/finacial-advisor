@@ -1391,7 +1391,7 @@ border-style:none;
                               opacity: 0;
                             }
 /*.tp-leftarrow                     { z-index:100;cursor:pointer; position:relative;  background:url(../assets/large_left.png) no-Repeat top left;  width:40px; height:40px;   }*/
-.tp-rightarrow                      { z-index:100;cursor:pointer; position:relative;  /*background:url(../assets/large_right.png) no-Repeat top left; width:40px; height:40px;   }
+.tp-rightarrow                      { z-index:100;cursor:pointer; position:relative;  background:url(../assets/large_right.png) no-Repeat top left; width:40px; height:40px;   }
 
 
 .tp-leftarrow.round                   { z-index:100;cursor:pointer; position:relative;  background:url(../assets/small_left.png) no-Repeat top left;  width:19px; height:14px;  margin-right:0px; float:left; margin-top:0px; }
@@ -1446,7 +1446,7 @@ border-style:none;
 
  - .bullet width & height is the dimension of a simple Thumbnail (basic 100px x 50px)
 
- *****************************************************************************************************/
+ ****************************************************************************************************
 
 
 .tp-bullets.tp-thumbs           { z-index:1000; position:absolute; padding:3px;background-color:#fff;

@@ -1,160 +1,43 @@
 
 
 <!-- Slider -->
-<div class="no-padding">
-  <div class="slider slider-dark-arrow slider-home-1" >
-    <div class="fullwidthbanner-container">
-      <div id="revolution-slider-home-1" >
-        <ul>  <!-- SLIDE  -->
-          <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="4000">
-            <!-- MAIN IMAGE -->
-            <%= image_tag 'Slider/1.jpg', alt: "slidebg1", "data-bgfit" => "cover", "data-bgposition" => "center", "data-bgrepeat" => "no-repeat" %>
-            <!-- LAYER NR. 1 -->
-            <div class="tp-caption sfr stt h2-text"
-            data-x="0" 
-            data-y="298"
-            data-speed="400" 
-            data-start="1000"
-            data-easing="easeInOut"
-            >Great experience
-          </div>
+<div id="container1">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
 
-          <!-- LAYER NR. 2 -->
-          <div class="tp-caption sfr stt h1-text"
-          data-x="0" 
-          data-y="381" 
-          data-speed="400"
-          data-start="1400"
-          data-easing="easeInOut"
-          >Meet our adviser
-        </div>
-
-        <!-- LAYER NR. 3 -->
-        <div class="tp-caption sfr stb h3-text"
-        data-x="0" 
-        data-y="455" 
-
-        data-speed="400"
-        data-start="1700"
-        data-easing="easeInOut"
-        style="max-width: 565px">
-        Comprehensive financial advice and financial services that are tailored to meet your individual needs.
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+      <div style="width: 100%;">
+        <%= image_tag "Slider/1.jpg", alt: "Los Angeles" %>
+      </div>
       </div>
 
-      <!-- LAYER NR. 4 -->
-      <div class="tp-caption sfr stb group-btn-slider"
-      data-x="0" 
-      data-y="580" 
-
-      data-speed="400"
-      data-start="1900"
-      data-easing="easeInOut"
-      > <a href="servicesList.html" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>  <a href="servicesList2.html" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Quick Call Back</a> 
+      <div class="item">
+        <%= image_tag "Slider/2.jpg", alt: "Los Angeles" %>
+      </div>
+    
+      <div class="item">
+       <%= image_tag "Slider/3.jpg", alt: "Los Angeles" %>
+      </div>
     </div>
-  </li>
-  <!-- SLIDE  -->
-  <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="6000">
-    <!-- MAIN IMAGE -->
-    <%= image_tag 'Slider/2.jpg', alt: "slidebg1", "data-bgfit" => "cover", "data-bgposition" => "center", "data-bgrepeat" => "no-repeat" %>
 
-    <!-- LAYER NR. 1 -->
-    <div class="tp-caption sfr stt h2-text"
-    data-x="0" 
-    data-y="298"
-    data-speed="400" 
-    data-start="1000"
-    data-easing="easeInOut"
-    >HELPING YOU TO
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="fa fa-angle-right"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="fa fa-angle-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-
-
-
-
-  <!-- LAYER NR. 2 -->
-  <div class="tp-caption sfr stt h1-text"
-  data-x="0" 
-  data-y="381" 
-  data-speed="400"
-  data-start="1400"
-  data-easing="easeInOut"
-  >GROW YOUR BUSINESS
 </div>
-
-<!-- LAYER NR. 3 -->
-<div class="tp-caption sfr stb h3-text"
-data-x="0" 
-data-y="455"
-
-data-speed="400"
-data-start="1700"
-data-easing="easeInOut"
-style="max-width: 565px">
-Comprehensive financial advice and financial services that are tailored to meet your individual needs.
-</div>
-<!-- LAYER NR. 4 -->
-<div class="tp-caption sfr stb group-btn-slider"
-data-x="0" 
-data-y="580" 
-
-data-speed="400"
-data-start="1900"
-data-easing="easeInOut"
-> <a href="servicesList.html" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>  <a href="servicesList2.html" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Quick Call Back</a> 
-</div>
-</li>
-<!--SLIDE-->
-<li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="4000">
-  <!-- MAIN IMAGE -->
- <%= image_tag 'Slider/3.jpg', alt: "slidebg1", "data-bgfit" => "cover", "data-bgposition" => "center", "data-bgrepeat" => "no-repeat" %>
-  <!-- LAYER NR. 1 -->
-  <div class="tp-caption sfr stt h2-text"
-  data-x="0" 
-  data-y="298"
-  data-speed="400" 
-  data-start="1000"
-  data-easing="easeInOut"
-  >Finance Focus
-</div>
-
-<!-- LAYER NR. 2 -->
-<div class="tp-caption sfr stt h1-text"
-data-x="0" 
-data-y="381" 
-data-speed="400"
-data-start="1400"
-data-easing="easeInOut"
->Road to Success
-</div>
-
-<!-- LAYER NR. 3 -->
-<div class="tp-caption sfr stb h3-text"
-data-x="0" 
-data-y="455" 
-
-data-speed="400"
-data-start="1700"
-data-easing="easeInOut"
-style="max-width: 565px">
-Listen to what you want for your future, then together we create a plan to help you get there
-</div>
-
-<!-- LAYER NR. 4 -->
-<div class="tp-caption sfr stb group-btn-slider"
-data-x="0" 
-data-y="580" 
-
-data-speed="400"
-data-start="1900"
-data-easing="easeInOut"
-> <a href="servicesList.html" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>  <a href="servicesList2.html" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Quick Call Back</a> 
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-</div><!-- Slider Revolution End -->
-
 <!-- Component Blog -->
 <section class="padding-top-50">
   <div class="container">
@@ -219,138 +102,101 @@ data-easing="easeInOut"
 </section>
 
 <!-- Component Media Left Icon Our Services-->
+
+
+<!-- Section Header Title -->
+
+
 <section class="bg-grey">
- <div class="container">
-   <div class="row">
-    <div class="col-md-12">
-      <h2 class="title clearfix">Our Services</h2>
-    </div><!-- End col -->
-    <div class="services-wrap">
-        <div class="services-list-2">
-          <article class="col-sm-6 col-md-4 thumbnail-style thumbnail-icon-item text-left ">
+           <div class="container">
+             <div class="row">
+                  <div class="col-md-12">
+                      <h2 class="title clearfix">Our Services</h2>
+                  </div><!-- End col -->
+                  <div class="services-warp">
+                      <article class=" col-sm-6 col-md-4 media-style media-left-icon-item">
+                          <div class="media">
+                            <div class="media-left">
+                              <i class="fa fa-cogs"></i>
+                            </div>
+                            <div class="media-body">
+                              <h4 class="">Equity Future</h4>
+                              <p>
+                                 In this package we provide technical researched calls in the equity cash market segment.
+                              </p>
+                            </div>
+                          </div>
+                      </article><!-- End article -->
+                      <article class=" col-sm-6 col-md-4 media-style media-left-icon-item">
+                         <div class="media">
+                            <div class="media-left">
+                              <i class="fa fa-check-square"></i>
+                            </div>
+                            <div class="media-body">
+                              <h4 class="">Stock Option</h4>
+                              <p>
+                                Under this package we provide stock option tips/calls to the clients.
+                              </p>
+                            </div>
+                          </div>
+                      </article><!-- End article -->
+                      <article class=" col-sm-6 col-md-4 media-style media-left-icon-item">
+                         <div class="media">
+                            <div class="media-left">
+                              <i class="fa fa-soundcloud"></i>
+                            </div>
+                            <div class="media-body">
+                              <h4 class="">Stock Future</h4>
+                              <p>
+                              In this Package we provide more specific and premium.
+                              </p>
+                            </div>
+                          </div>
+                      </article><!-- End article -->
+                      <article class=" col-sm-6 col-md-4 media-style media-left-icon-item no-margin">
+                         <div class="media">
+                            <div class="media-left">
+                              <i class="fa fa-cubes"></i>
+                            </div>
+                            <div class="media-body">
+                              <h4 class="">Nifty Future</h4>
+                              <p>
+                                In this package we provides recomandations on Nifty Future which is uniquely designed for Nifty traders trading in Nifty Future and Bank Nifty Future.
+                              </p>
+                            </div>
+                          </div>
+                      </article><!-- End article -->
+                      <article class=" col-sm-6 col-md-4 media-style media-left-icon-item no-margin">
+                         <div class="media">
+                            <div class="media-left">
+                              <i class="fa fa-tint"></i>
+                            </div>
+                            <div class="media-body">
+                              <h4 class="">MCX</h4>
+                              <p>
+                                     In This service we provides recommendations on Global commodities like Gold, Silver, Crude Oil, Zinc many more.
+                              </p>
+                            </div>
+                          </div>
+                      </article><!-- End article -->
+                      <article class=" col-sm-6 col-md-4 media-style media-left-icon-item no-margin">
+                         <div class="media">
+                            <div class="media-left">
+                              <i class="fa fa-leaf"></i>
+                            </div>
+                            <div class="media-body">
+                              <h4 class="">Positional MCX Package. </h4>
+                              <p>
+                               In this package is specially designed for traders who don&#39;t want to get involved inintraday trading and whereas want to keep their positions hold and make big profit.
+                              </p>
+                            </div>
+                          </div>
+                      </article><!-- End article -->
+                  </div><!-- End Services Warp -->
+             </div> <!-- End Row -->
+           </div><!-- End container -->
+        </section>
 
-           <div class="thumbnail icon-left">
-            
-           <i class="fa fa-cogs"></i>
-             
-            <div class="caption">
-             <h4>Equity Future</h4>
-             <p>
-              In this package we provide technical researched calls in the equity cash market segment.
-            </p>
-            <a class="learn-more" href="services-detail.html"><i class="fa fa-caret-right" aria-hidden="true"></i>  Learn More
-
-            </a>
-          </div>
-        </div>
-
-      </article><!-- End article -->
-      <article class="col-sm-6 col-md-4 thumbnail-style thumbnail-icon-item text-left ">
-
-       <div class="thumbnail icon-left">
-       <i class="fa fa-check-square"></i>
-             
-         <div class="caption">
-           <h4>Stock Option</h4>
-           <p>
-            Under this package we provide stock option tips/calls to the clients.
-          </p>
-          <a class="learn-more" href="services-detail.html"><i class="fa fa-caret-right" aria-hidden="true"></i>  Learn More
-
-          </a>
-        </div>
-      </div>
-
-    </article><!-- End article -->
-    <article class="col-sm-6 col-md-4 thumbnail-style thumbnail-icon-item text-left ">
-
-     <div class="thumbnail icon-left">
-    <i class="fa fa-soundcloud"></i>
-       <div class="caption">
-         <h4>Stock Future</h4>
-         <p>
-          In this Package we provide more specific and premium.
-        </p>
-        <a class="learn-more" href="services-detail.html"><i class="fa fa-caret-right" aria-hidden="true"></i>  Learn More
-
-        </a>
-      </div>
-    </div>
-
-  </article><!-- End article -->
-  <article class="col-sm-6 col-md-4 thumbnail-style thumbnail-icon-item text-left no-margin">
-
-   <div class="thumbnail icon-left">
-    <i class="fa fa-rocket"></i>
-     <div class="caption">
-       <h4>BTST Package</h4>
-       <p>
-        In this Package we provides recommendations for traders who is having one to two day investment prospective.
-      </p>
-      <a class="learn-more" href="services-detail.html"><i class="fa fa-caret-right" aria-hidden="true"></i>  Learn More
-
-      </a>
-    </div>
-  </div>
-
-</article><!-- End article -->
-<article class="col-sm-6 col-md-4 thumbnail-style thumbnail-icon-item text-left no-margin">
-
- <div class="thumbnail icon-left">
-   <i class="fa fa-cubes"></i>
-   <div class="caption">
-     <h4>Nifty Future</h4>
-     <p>
-      In this package we provides recomandations on Nifty Future which is uniquely designed for Nifty traders trading in Nifty Future and Bank Nifty Future.
-    </p>
-    <a class="learn-more" href="services-detail.html"><i class="fa fa-caret-right" aria-hidden="true"></i>  Learn More
-
-    </a>
-  </div>
-</div>
-
-</article><!-- End article -->
-
-<article class="col-sm-6 col-md-4 thumbnail-style thumbnail-icon-item text-left no-margin">
-
- <div class="thumbnail icon-left">
-   <i class="fa fa-tint"></i>
-   <div class="caption">
-     <h4>MCX</h4>
-     <p>
-      In This service we provides recommendations on Global commodities like Gold, Silver, Crude Oil, Zinc many more.
-    </p>
-    <a class="learn-more" href="services-detail.html"><i class="fa fa-caret-right" aria-hidden="true"></i>  Learn More
-
-    </a>
-  </div>
-</div>
-
-</article><!-- End article -->
-
-<article class="col-sm-6 col-md-4 thumbnail-style thumbnail-icon-item text-left no-margin">
-
- <div class="thumbnail icon-left">
-<i class="fa fa-leaf" style="margin-top: 40px;"></i>
-   <div class="caption">
-     <h4>Positional MCX Package.</h4>
-     <p>
-      In this package is specially designed for traders who don&#39;t want to get involved inintraday trading and whereas want to keep their positions hold and make big
-profit.
-    </p>
-    <a class="learn-more" href="services-detail.html"><i class="fa fa-caret-right" aria-hidden="true"></i>  Learn More
-
-    </a>
-  </div>
-</div>
-
-</article><!-- End article -->
-<div class="clearfix" style="margin-bottom: 30px;"></div>
-
-</div>
-</div><!-- End Row -->
-</div><!-- End container -->
-</section>
 <div class="line"></div>
 <!-- Component Courter Up -->
 <section>

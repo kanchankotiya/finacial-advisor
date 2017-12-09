@@ -612,7 +612,7 @@ header {
   list-style: none;
 }
 .header-v1 {
-  background: rgba(255, 255, 255, 0.25);
+   background-color: white;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   padding: 20px 35px;
   padding-bottom: 0;
@@ -5447,7 +5447,15 @@ form .form-row-first.text-right {
   .container {
     width: 1200px;
   }
+    }
+    
+    @media (min-width: 1200px) {
+.container1
+{
+  width: 100%;
 }
+}
+
 /* Large Devices, Wide Screens */
 @media only screen and (max-width: 1199px) {
   .header-v1.stuck .logo {
